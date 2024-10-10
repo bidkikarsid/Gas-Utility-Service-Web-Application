@@ -29,25 +29,61 @@ This project is a **Django-based web application** designed to manage customer s
 
 ## Steps 
 
-2. Created and Activated a Virtual Environment
+2. Create and Activate a Virtual Environment
 Using virtualenv (Recommended)
+```bash
 
-3. Installed Dependencies
-Once the virtual environment is activated, installed the required dependencies:
+# Install virtualenv if not installed
+pip install virtualenv
 
-4. Setting Up the Database
-Migrated the database to create necessary tables:
+# Create a virtual environment
+virtualenv venv
 
-5. Created a Superuser
-To access the Django admin panel, created a superuser:
+# Activate the virtual environment (Windows)
+source venv/Scripts/activate
 
-6. Started the Django development server:
+# Activate the virtual environment (macOS/Linux)
+source venv/bin/activate
+```
+3. Install Dependencies
+Once the virtual environment is activated, install the required dependencies:
 
+```bash
+
+pip install -r requirements.txt
+Note: Ensure that Django and other dependencies are listed in the requirements.txt file. You can create this file using the command:
+```
+
+4. Set Up the Database
+Migrate the database to create necessary tables:
+
+```bash
+
+python manage.py makemigrations
+python manage.py migrate
+```
+5. Create a Superuser
+To access the Django admin panel, create a superuser:
+
+```bash
+python manage.py createsuperuser
+Follow the prompts to set up the superuser account.
+```
+6. Run the Development Server
+Start the Django development server:
+
+```bash
+python manage.py runserver
+Visit http://127.0.0.1:8000/ in your browser to access the application.
+```
 7. Access the Admin Panel
-To access the admin interface, go to: http://127.0.0.1:8000/admin/
-Use the superuser credentials you created earlier to log in. (for instance use Username - sid1234 Password - 123456789)
+To access the admin interface, go to:
 
+```bash
 
+http://127.0.0.1:8000/admin/
+Use the superuser credentials you created earlier to log in.
+```
 ## Project Structure
 ```php
 gas_utility/
