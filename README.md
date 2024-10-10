@@ -46,7 +46,7 @@ Started the Django development server:
 
 7. Access the Admin Panel
 To access the admin interface, go to: http://127.0.0.1:8000/admin/
-Use the superuser credentials you created earlier to log in.
+Use the superuser credentials you created earlier to log in. (for instance use Username - sid1234 Password - 123456789)
 
 
 ## Project Structure
