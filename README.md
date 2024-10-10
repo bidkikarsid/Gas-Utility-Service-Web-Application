@@ -28,5 +28,56 @@ This project is a **Django-based web application** designed to manage customer s
 - SQLite (default Django database)
 
 
+2. Created and Activated a Virtual Environment
+Using virtualenv (Recommended)
+
+
+3. Installed Dependencies
+Once the virtual environment is activated, installed the required dependencies:
+
+4. Setting Up the Database
+Migrated the database to create necessary tables:
+
+5. Create a Superuser
+To access the Django admin panel, created a superuser:
+
+6. Run the Development Server
+Started the Django development server:
+
+7. Access the Admin Panel
+To access the admin interface, go to:
+
+http://127.0.0.1:8000/admin/
+Use the superuser credentials you created earlier to log in.
+
+
+Project Structure
+
+gas_utility/
+│
+├── customer_service/         # Main app directory
+│   ├── templates/            # HTML templates
+│   │   └── home.html         # Homepage template
+│   ├── static/               # Static files (CSS, JS, images)
+│   ├── migrations/           # Database migrations
+│   ├── views.py              # View functions
+│   ├── models.py             # Data models
+│   ├── forms.py              # Form classes
+│   ├── admin.py              # Admin configuration
+│   └── urls.py               # URL patterns for the app
+│
+├── gas_utility/              # Project directory
+│   ├── settings.py           # Project settings
+│   ├── urls.py               # Project-level URL patterns
+│   ├── wsgi.py               # WSGI entry point for deployment
+│   ├── asgi.py               # ASGI entry point for async support
+├── manage.py                 # Django management commands
+├── venv/                     # Virtual environment directory (if using virtualenv)
+└── README.md                 # Project documentation
+
+Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
+
+
 
 
