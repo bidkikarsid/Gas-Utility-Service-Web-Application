@@ -27,10 +27,10 @@ This project is a **Django-based web application** designed to manage customer s
 - Bootstrap 
 - SQLite (default Django database)
 
+## Steps 
 
 2. Created and Activated a Virtual Environment
 Using virtualenv (Recommended)
-
 
 3. Installed Dependencies
 Once the virtual environment is activated, installed the required dependencies:
@@ -45,14 +45,12 @@ To access the Django admin panel, created a superuser:
 Started the Django development server:
 
 7. Access the Admin Panel
-To access the admin interface, go to:
-
-http://127.0.0.1:8000/admin/
+To access the admin interface, go to: http://127.0.0.1:8000/admin/
 Use the superuser credentials you created earlier to log in.
 
 
-Project Structure
-
+## Project Structure
+```php
 gas_utility/
 │
 ├── customer_service/         # Main app directory
@@ -74,8 +72,9 @@ gas_utility/
 ├── manage.py                 # Django management commands
 ├── venv/                     # Virtual environment directory (if using virtualenv)
 └── README.md                 # Project documentation
+```
 
-Contributing
+### Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
 
 
