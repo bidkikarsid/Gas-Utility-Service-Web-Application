@@ -38,7 +38,7 @@ Once the virtual environment is activated, installed the required dependencies:
 4. Setting Up the Database
 Migrated the database to create necessary tables:
 
-5. Create a Superuser
+5. Created a Superuser
 To access the Django admin panel, created a superuser:
 
 6. Run the Development Server
