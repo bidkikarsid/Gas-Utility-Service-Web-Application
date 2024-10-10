@@ -41,8 +41,7 @@ Migrated the database to create necessary tables:
 5. Created a Superuser
 To access the Django admin panel, created a superuser:
 
-6. Run the Development Server
-Started the Django development server:
+6. Started the Django development server:
 
 7. Access the Admin Panel
 To access the admin interface, go to: http://127.0.0.1:8000/admin/
